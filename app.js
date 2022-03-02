@@ -24,7 +24,6 @@ function addTodo(event){
     completedButton.innerHTML = '<i class="fa-solid fa-check"></i>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
-    <i class="fa-solid fa-check"></i>
 
     // creating delete BUTTON
     const trashButton = document.createElement("button");
