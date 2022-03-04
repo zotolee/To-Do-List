@@ -48,10 +48,12 @@ form button:hover {
     margin: 0.5rem;
     background: white;
     color: black;
+    font-weight: bold;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.4s ease;
 }
 .todo li {
     flex: 1;
@@ -59,15 +61,23 @@ form button:hover {
 .complete-btn,
 .trash-btn {
     background: orange;
-    color: whitesmoke;
+    color: white;
     border: none;
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
 }
 .complete-btn {
-    background: chartreuse;
+    background: greenyellow;
 }
 .todo-item {
     padding: 0 0.5rem;
+}
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
