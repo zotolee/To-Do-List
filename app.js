@@ -11,6 +11,7 @@ filterOption.addEventListener("click", filterTodo);
 
 //Functions
 function addTodo(event){
+        "use strict";
     //prevent form from submitting
     event.preventDefault();
     //creating div
@@ -42,6 +43,7 @@ function addTodo(event){
 }
 
 function deleteCheck(e) {
+    "use strict";
     const item = e.target;
     //delete selected Todo
     if (item.classList[0] === "trash-btn") {
@@ -61,6 +63,7 @@ function deleteCheck(e) {
 }
 
     function filterTodo(e) {
+        "use strict";
        const todos = todoList.childNodes;
        todos.forEach(function(todo){
          switch (e.target.value) {
