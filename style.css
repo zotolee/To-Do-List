@@ -82,21 +82,21 @@ form button:hover {
     text-decoration: line-through;
     opacity: 0.5;
 }
-/* .fall
-    transform: translate: translateY(8rem) rotate(20deg);
+.fall {
+    transform: translateY(8rem) rotate(20deg);
     opacity: 0;
-    */
-    select {
+}   
+ select {
         outline: none;
         border: none;
         color: orange;
         width: 10rem;
         cursor: pointer;
         padding: 1rem;
-    } 
-    .select {
+} 
+.select {
         margin: 1rem;
         position: relative;
         overflow: hidden;
-    }
+}
     

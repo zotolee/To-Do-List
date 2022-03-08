@@ -49,10 +49,10 @@ function deleteCheck(e) {
     if (item.classList[0] === "trash-btn") {
         const todo = item.parentElement;
         //An animation effect can be added here
-        //todo.classList.add("fall");
-        //todo.addEventListener("transitionend", function() {}
-        //todo.remove();
-        //});
+        todo.classList.add("fall");
+        todo.addEventListener("transitionend", function() {
+        todo.remove();
+        });
         todo.remove();
     }
     // check selected Todo
