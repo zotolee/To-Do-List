@@ -61,7 +61,7 @@ function deleteCheck(e) {
         todo.classList.toggle("completed");
     }
 }
-
+    //filter todo
     function filterTodo(e) {
         "use strict";
        const todos = todoList.childNodes;
